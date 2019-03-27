@@ -2594,7 +2594,7 @@ footer p {
 	}
 }
 
-@media (min-width:768px) and (max-width:1920px) {
+@media (max-width:1920px) {
 	#bottom .row {
 		margin: 0;
 		padding: 0;

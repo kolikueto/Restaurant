@@ -1997,7 +1997,7 @@ tbody.collapse.in {
 	border: 1px solid #fff;
 	border-radius: 10px;
 	cursor: pointer;
-	background-color: #000\9;
+	background-color: #0009;
 	background-color: transparent
 }
 
@@ -2420,7 +2420,7 @@ figure {
 
 header {
 	padding: 30px 0 50px 0;
-	background: url("../img/miscelanea.png") no-repeat bottom center
+	background: no-repeat bottom center
 }
 
 header nav {
@@ -2457,7 +2457,8 @@ main {
 
 p.fecha {
 	font-size: 20px;
-	font-weight: bold
+	font-weight: bold;
+	margin-top: 2%;
 }
 
 nav.menu {
@@ -2469,7 +2470,6 @@ nav.menu a {
 	width: 264px;
 	height: 63px;
 	line-height: 63px;
-	background: url("../img/base-boton.png") no-repeat center;
 	font-size: 16px;
 	font-weight: bold;
 	letter-spacing: 1px

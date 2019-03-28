@@ -2523,6 +2523,13 @@ article.menu h2 {
 	padding: 10px 0
 }
 
+carousel-caption{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+
 @media (min-width:100px) and (max-width:767px) {
 	article.menu h2 {
 		font-size: 18px

@@ -11,6 +11,9 @@
     <link rel="dns-prefetch" href="//fonts.googleapis.com" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Stint Ultra Condensed:400|Roboto:400,900|Roboto Condensed:400,700,300italic, " />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <body id="home">
     <header>
@@ -55,7 +58,57 @@
                 </div>
             </div>
         </div>
-    </main>
+        <div class="container">
+        <br>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+          </ol>
+      
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+      
+            <div class="item active col-md-12">
+              <img class="imgComida img-responsive"src="img/ensaladas.jpg" alt="Ensaladas" width="460" height="345">
+              <div class="carousel-caption">
+                <h3>Nuestras Ensaladas</h3>
+                <p>Armelas a su gusto</p>
+              </div>
+            </div>
+      
+            <div class="item col-md-12">
+              <img class="imgComida img-responsive"src="img/mejillones.jpg" alt="Mejillones" width="460" height="345">
+              <div class="carousel-caption">
+                <h3>Mejillones a la vinagreta</h3>
+                <p>Explore nuestra selección de mariscos</p>
+              </div>
+            </div>
+          
+            <div class="item col-md-12">
+              <img class="imgComida img-responsive"src="img/panqueques.jpg" alt="Panqueuqes" width="460" height="345">
+              <div class="carousel-caption">
+                <h3>Panqueques con Dulce de Leche</h3>
+                <p>Pregunte por nuestros platos dulces.</p>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </main> 
     <footer>
         <div class="container">
             <div class="row">

@@ -2332,20 +2332,21 @@ footer p {
 				object-fit: cover;
 				transition: transform .2s;
 		}
-		.mapouter {
+		#mapouter {
 			position: relative;
 			text-align: right;
 			height: 150px;
 			width: 200px;
-			float: left!important;
+			float: left;
 	}
 	
 	#gmap_canvas {
 			overflow: hidden;
-			background: none!important;
+			background: none;
 			height: 200px;
 			width: 200px;
-			float: left!important;
+			float: left;
+			float:top;
 			margin:3%;
 			margin-left: 5%;
 	}

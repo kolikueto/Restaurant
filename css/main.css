@@ -3,13 +3,15 @@
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
-html {
-	font-family: sans-serif;
-	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%
+nav a {
+	color:#2e2d2b;
 }
 
+
 body {
+	font-family: "Stint Ultra Condensed", Georgia, "Times New Roman", Times, serif !important;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
 	margin: 0
 }
 
@@ -2456,7 +2458,7 @@ main {
 }
 
 p.fecha {
-	font-size: 20px;
+	font-size: 28px;
 	font-weight: bold;
 	margin-top: 2%;
 }
@@ -2499,7 +2501,7 @@ article.menu {
 }
 
 article.menu p {
-	font-size: 16px;
+	font-size: 25px;
 	margin: 0;
 	padding: 0 0 3px 0
 }
@@ -2632,11 +2634,13 @@ footer p {
 			float: left!important;
 	}
 	
-	.gmap_canvas {
+	#gmap_canvas {
 			overflow: hidden;
 			background: none!important;
-			height: 150px;
+			height: 200px;
 			width: 200px;
-			float: right!important;
+			float: left!important;
+			margin:3%;
+			margin-left: 5%;
 	}
 }

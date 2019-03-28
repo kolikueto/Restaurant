@@ -13,5 +13,5 @@ function googleSearch(evt){
 var images= document.getElementsByClassName("imgComida");
 for (var i=0, len=images.length, img; i<len; i++) {
     img = images[i];
-    img.addEventListener ("click", googleSearch, false);
+    img.addEventListener ("click", googleSearch);
 }

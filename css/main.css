@@ -2623,5 +2623,20 @@ footer p {
         max-height: 150px;
 				object-fit: cover;
 				transition: transform .2s;
-    }
+		}
+		.mapouter {
+			position: relative;
+			text-align: right;
+			height: 150px;
+			width: 200px;
+			float: left!important;
+	}
+	
+	.gmap_canvas {
+			overflow: hidden;
+			background: none!important;
+			height: 150px;
+			width: 200px;
+			float: right!important;
+	}
 }

@@ -3,9 +3,8 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 nav a {
-	color:#2e2d2b;
+	color: #2e2d2b;
 }
-
 
 body {
 	font-family: "Stint Ultra Condensed", Georgia, "Times New Roman", Times, serif !important;
@@ -2323,29 +2322,28 @@ footer p {
 		margin: 0;
 		padding: 0;
 		display: table-cell!important
-    }
-    .imgComida {
-        width: auto;
-        height: auto;
-        min-width: 100%;
-        max-height: 150px;
-				object-fit: cover;
-				transition: transform .2s;
-		}
-		#mapouter {
-			position: relative;
-			text-align: right;
-			height: 150px;
-			width: 100%;
-			float: left;
 	}
-	#gmap_canvas{
-		width:85%!important;
-		height:auto!important;
-		box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-		margin:auto;
+	.imgComida {
+		width: auto;
+		height: auto;
+		min-width: 100%;
+		max-height: 150px;
+		object-fit: cover;
+		transition: transform .2s;
+	}
+	#mapouter {
+		position: relative;
+		text-align: right;
+		height: 150px;
+		width: 100%;
+		float: left;
+	}
+	#gmap_canvas {
+		width: 85%!important;
+		height: auto!important;
+		box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+		margin: auto;
+	}
 }
-	}
-	
 
 }
